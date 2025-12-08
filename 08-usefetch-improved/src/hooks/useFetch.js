@@ -3,11 +3,15 @@ import { useEffect, useState } from "react";
 export function useFetch(url){
     const [finalData , setFinalData] = useState({});
 
+    const [loading, setLoading] = useState(true);
+
 
     async function getDetails(){
+        setLoading(true);
         const response = await fetch(url);
         const json = await response.json();
         setFinalData(json);
+        setLoading(false);
 
     }
 
@@ -18,7 +22,7 @@ export function useFetch(url){
     },[url]) ;      //whenever url changes, re renders useFetch
 
     return {
-        finalData
+        finalData, loading
     }
 
 }
