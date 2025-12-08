@@ -11,15 +11,9 @@ export function useFetch(url){
             setFinalData(json);
         }
 
-    
-
-    
-
 
     useEffect(()=>{
-        
-        
-    
+ 
         //backend logic- we wanna fetch backend data when component mounts
         getDetails();
 
