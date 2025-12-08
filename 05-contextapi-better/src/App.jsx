@@ -51,7 +51,7 @@ function LightSwitch(){
     setBulbOn( currentState => !currentState)
   }
   return <div>
-    <button onClick={toggleSwitch()}> Turn on/off</button> 
+    <button onClick={toggleSwitch}> Turn on/off</button> 
   </div>
 }
 
