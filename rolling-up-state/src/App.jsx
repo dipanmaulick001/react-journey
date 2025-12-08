@@ -9,6 +9,7 @@ function App() {
 }
 
 function Light(){
+  //reintialising the state variables in the lca
   const [bulbOn , setBulbOn] = useState(true);  //rolling up the state
 
   return <div>
