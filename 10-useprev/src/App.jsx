@@ -4,8 +4,8 @@ import './App.css'
 import { usePrev } from './hooks/useprev'
 
 function App(){
-  const [count , setCount] = useState(0);
-  const prev = usePrev(count);
+  const [count , setCount] = useState(0); //2
+  const prev = usePrev(count); //1
 
   return <>
     <p>{count}</p>
