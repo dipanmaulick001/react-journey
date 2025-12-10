@@ -4,7 +4,7 @@ import './App.css'
 import { usePrev } from './hooks/useprev'
 
 function App(){
-  const [count , setCount] = useState(0); //2
+  const [count , setCount] = useState(0); //1=>2
   const prev = usePrev(count); //1
 
   return <>
