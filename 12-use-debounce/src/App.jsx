@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './hooks/usedebounce.js'
-import { useDebounce } from './hooks/usedebounce.js';
+import { useDebounce } from './hooks/usedebounce';
 
 
 //import './App.css'
