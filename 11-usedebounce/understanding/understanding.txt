@@ -1,0 +1,1 @@
+So as the image explains, backend request sent only when we stop typing- so no debouncing 
